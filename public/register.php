@@ -28,13 +28,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com'; // Set the SMTP server to send through
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'youremail@gmail.com'; // SMTP username
-            $mail->Password   = 'yourapppassword';    // SMTP password
+            $mail->Username   = 'zahra.shahrooeii@gmail.com'; // SMTP username
+            $mail->Password   = 'ihvp ggzs xivs xvnz';    // SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port       = 587;
 
             // Recipients
-            $mail->setFrom('youremail@gmail.com', 'appname');
+            $mail->setFrom('zahra.shahrooeii@gmail.com', 'med-rem');
             $mail->addAddress($email);
 
             // Content
